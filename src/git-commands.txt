@@ -1,0 +1,10 @@
+git init
+git clone
+git status
+git add .
+git add <file name>
+git stage
+git commit
+git push
+
+
