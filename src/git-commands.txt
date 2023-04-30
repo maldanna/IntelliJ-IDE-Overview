@@ -24,11 +24,6 @@ On the other hand, `git pull` does two things: it performs a `git fetch` to retr
 
 In summary, `git fetch` is useful when you want to see what changes have been made in the remote repository, but you are not yet ready to merge them into your local branch. `git pull` is useful when you want to immediately incorporate changes from the remote repository into your local branch.
 
-
-
-
-
-
 // added line here only
 
 
