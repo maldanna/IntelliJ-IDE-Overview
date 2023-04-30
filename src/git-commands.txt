@@ -7,4 +7,22 @@ git stage
 git commit
 git push
 
+=====
+branching:
+
+git branch. -- shows current brnach name with * symbol
+
+
+Fetch Vs Pull
+==============
+
+Both `git pull` and `git fetch` are Git commands that are used to retrieve updates from a remote repository. However, they differ in how they retrieve updates and merge changes into the local repository.
+
+`git fetch` retrieves changes from the remote repository and stores them in the local repository, but does not merge them with the local branches. This means that the changes are not immediately visible in the working directory. Instead, they are stored in a remote branch, which can be merged later using the `git merge` command.
+
+On the other hand, `git pull` does two things: it performs a `git fetch` to retrieve the changes from the remote repository, and then it merges the changes into the local branch. This means that the changes are immediately visible in the working directory.
+
+In summary, `git fetch` is useful when you want to see what changes have been made in the remote repository, but you are not yet ready to merge them into your local branch. `git pull` is useful when you want to immediately incorporate changes from the remote repository into your local branch.
+
+
 
